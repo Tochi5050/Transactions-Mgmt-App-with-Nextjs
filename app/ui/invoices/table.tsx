@@ -85,14 +85,14 @@ export default async function InvoicesTable({
                 >
                   <td className="whitespace-nowrap py-3 pl-6 pr-3">
                     <div className="flex items-center gap-3">
-                      <Image
+                      {/* <Image
                         alt="Profile picture of owner with the invoice name"
                         src={invoice.image_url}
                         className="rounded-full"
                         width={28}
                         height={28}
                         
-                      />
+                      /> */}
                       <p>{invoice.name}</p>
                     </div>
                   </td>
